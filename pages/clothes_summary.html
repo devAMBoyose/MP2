@@ -36,120 +36,97 @@
 </div>
 <!-- Navbar ================================================== -->
 <div id="logoArea" class="navbar">
-<a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-</a>
-  <div class="navbar-inner">
-    <a class="brand" href="index.html"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
-		<form class="form-inline navbar-search" method="post" action="products.html" >
-		<input id="srchFld" class="srchTxt" type="text" />
-		  <select class="srchTxt">
-			<option>All</option>
-			<option>CLOTHES </option>
-			<option>FOOD AND BEVERAGES </option>
-			<option>HEALTH & BEAUTY </option>
-			<option>SPORTS & LEISURE </option>
-			<option>BOOKS & ENTERTAINMENTS </option>
-		</select> 
-		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
-    </form>
-    <ul id="topMenu" class="nav pull-right">
-	 <li class=""><a href="special_offer.html">Specials Offer</a></li>
-	 <li class=""><a href="normal.html">Delivery</a></li>
-	 <li class=""><a href="contact.html">Contact</a></li>
-	 <li class="">
-	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
-	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			<h3>Login Block</h3>
-		  </div>
-		  <div class="modal-body">
-			<form class="form-horizontal loginFrm">
-			  <div class="control-group">								
-				<input type="text" id="inputEmail" placeholder="Email">
+	<a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</a>
+	  <div class="navbar-inner">
+		<a class="brand" href="/MP2/index.html"><img src="/MP2/themes/images/logo.png" alt="Bootsshop"/></a>
+			<form class="form-inline navbar-search" method="post" action="products.html" >
+			<input id="srchFld" class="srchTxt" type="text" />
+			  <select class="srchTxt">
+				<option>All</option>
+				<option>ELECTRONICS </option>
+				<option>CLOTHES </option>
+				<option>FOOD AND BEVERAGES </option>
+			</select> 
+			  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
+		</form>
+		<ul id="topMenu" class="nav pull-right">
+			<li class=""><a href="/MP2/index.html">Specials Offer</a></li>
+			<li class=""><a href="/MP2/pages/contact.html">Contact</a></li>
+			<li class="">
+		 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
+		<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">�</button>
+				<h3>Members Login</h3>
 			  </div>
-			  <div class="control-group">
-				<input type="password" id="inputPassword" placeholder="Password">
+			  <div class="modal-body">
+	
+				<form class="form-horizontal loginFrm">
+				  <div class="control-group">								
+					<input type="text" id="inputEmail" placeholder="Email">
+				  </div>
+				  <div class="control-group">
+					<input type="password" id="inputPassword" placeholder="Password">
+				  </div>
+				  <div class="control-group">
+					<label class="checkbox">
+					<input type="checkbox"> Remember me
+					</label>
+				  </div>
+				
+				</div>
+				</form>		
+				<button type="submit" class="btn btn-success">Sign in</button>
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
 			  </div>
-			  <div class="control-group">
-				<label class="checkbox">
-				<input type="checkbox"> Remember me
-				</label>
-			  </div>
-			</form>		
-			<button type="submit" class="btn btn-success">Sign in</button>
-			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-		  </div>
+		</div>
+		</li>
+		</ul>
+	  </div>
 	</div>
-	</li>
-    </ul>
-  </div>
-</div>
-</div>
-</div>
+	</div>
+	</div>
 <!-- Header End====================================================================== -->
 <div id="mainBody">
 	<div class="container">
 	<div class="row">
 <!-- Sidebar ================================================== -->
 	<div id="sidebar" class="span3">
-		<div class="well well-small"><a id="myCart" href="product_summary.html"><img src="themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">₱155.00</span></a></div>
+		<div class="well well-small"><a id="myCart" href="product_summary.html"><img src="/MP2/themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">₱155.00</span></a></div>
 		<ul id="sideManu" class="nav nav-tabs nav-stacked">
 			<li class="subMenu open"><a> ELECTRONICS [230]</a>
-				<ul>
-				<li><a class="active" href="products.html"><i class="icon-chevron-right"></i>Cameras (100) </a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Computers, Tablets & laptop (30)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Mobile Phone (80)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Sound & Vision (15)</a></li>
-				</ul>
-			</li>
-			<li class="subMenu"><a> CLOTHES [840] </a>
-			<ul style="display:none">
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Women's Clothing (45)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Women's Shoes (8)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Women's Hand Bags (5)</a></li>	
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Men's Clothings  (45)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Men's Shoes (6)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Kids Clothing (5)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Kids Shoes (3)</a></li>												
-			</ul>
-			</li>
-			<li class="subMenu"><a>FOOD AND BEVERAGES [1000]</a>
+					<ul>
+					<li><a href="#"><i class="icon-chevron-right"></i>Cameras (100) </a></li>
+					<li><a href="#"><i class="icon-chevron-right"></i>Computers, Tablets & laptop (30)</a></li>
+					<li><a href="#"><i class="icon-chevron-right"></i>Mobile Phone (80)</a></li>
+					<li><a href="#"><i class="icon-chevron-right"></i>Sound & Vision (15)</a></li>
+					</ul>
+				</li>
+				<li class="subMenu"><a> CLOTHES [840] </a>
 				<ul style="display:none">
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Angoves  (35)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Bouchard Aine & Fils (8)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>French Rabbit (5)</a></li>	
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Louis Bernard  (45)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>BIB Wine (Bag in Box) (8)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Other Liquors & Wine (5)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Garden (3)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Khao Shong (11)</a></li>												
+					<li><a href="/MP2/pages/clothes.html"><i class="icon-chevron-right"></i>Women & Men's Clothing (20)</a></li>
+					<li><a href="#"><i class="icon-chevron-right"></i>Women & Men's Shoes (8)</a></li>												
+					<li><a href="#"><i class="icon-chevron-right"></i>Women & Men's Hand Bags (5)</a></li>												
+				</ul>
+				</li>
+				<li class="subMenu"><a>FOOD AND BEVERAGES [1000]</a>
+					<ul style="display:none">
+					<li><a href="#"><i class="icon-chevron-right"></i>Angoves  (35)</a></li>
+					<li><a href="#"><i class="icon-chevron-right"></i>Bouchard Aine & Fils (8)</a></li>												
+					<li><a href="#"><i class="icon-chevron-right"></i>French Rabbit (5)</a></li>	
+					<li><a href="#"><i class="icon-chevron-right"></i>Louis Bernard  (45)</a></li>												
 			</ul>
 			</li>
-			<li><a href="products.html">HEALTH & BEAUTY [18]</a></li>
-			<li><a href="products.html">SPORTS & LEISURE [58]</a></li>
-			<li><a href="products.html">BOOKS & ENTERTAINMENTS [14]</a></li>
+	
 		</ul>
 		<br/>
-		  <div class="thumbnail">
-			<img src="themes/images/products/panasonic.jpg" alt="Bootshop panasonoc New camera"/>
-			<div class="caption">
-			  <h5>Panasonic</h5>
-				<h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">₱222.00</a></h4>
-			</div>
-		  </div><br/>
+	<!-- payment Methods	============================= -->
 			<div class="thumbnail">
-				<img src="themes/images/products/kindle.png" title="Bootshop New Kindel" alt="Bootshop Kindel">
-				<div class="caption">
-				  <h5>Kindle</h5>
-				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">₱222.00</a></h4>
-				</div>
-			  </div><br/>
-			<div class="thumbnail">
-				<img src="themes/images/payment_methods.png" title="Bootshop Payment Methods" alt="Payments Methods">
+				<img src="/MP2/themes/images/payment_methods.png" title="Bootshop Payment Methods" alt="Payments Methods">
 				<div class="caption">
 				  <h5>Payment Methods</h5>
 				</div>
@@ -163,27 +140,28 @@
     <li class="active">product Details</li>
     </ul>	
 	<div class="row">	  
-			<div id="gallery" class="span3">
-            <a href="themes/images/products/large/f1.jpg" title="Fujifilm FinePix S2950 Digital Camera">
-				<img src="themes/images/products/large/3.jpg" style="width:100%" alt="Fujifilm FinePix S2950 Digital Camera"/>
+			<div id="gallery" class="span3 alignR">
+            <a href="/MP2/themes/images/products/cloths/Bad-Bones-Krew-II-T-shirt-clip-art-12203.jpg" title="A-Ride-To-Remember">
+				<img src="/MP2/themes/images/products/cloths/Bad-Bones-Krew-II-T-shirt-clip-art-12203.jpg" style="width:100%" alt="Fujifilm FinePix S2950 Digital Camera"/>
             </a>
 			<div id="differentview" class="moreOptopm carousel slide">
                 <div class="carousel-inner">
                   <div class="item active">
-                   <a href="themes/images/products/large/f1.jpg"> <img style="width:29%" src="themes/images/products/large/f1.jpg" alt=""/></a>
-                   <a href="themes/images/products/large/f2.jpg"> <img style="width:29%" src="themes/images/products/large/f2.jpg" alt=""/></a>
-                   <a href="themes/images/products/large/f3.jpg" > <img style="width:29%" src="themes/images/products/large/f3.jpg" alt=""/></a>
+                   <a href="/MP2/themes/images/products/cloths/Aloha-T-shirt-design-11193.jpg"> <img style="width:29%" src="/MP2/themes/images/products/cloths/Aloha-T-shirt-design-11193.jpg" alt=""/></a>
+                   <a href="/MP2/themes/images/products/cloths/Accept-Yourself-T-shirt-design-22262.jpg"> <img style="width:29%" src="/MP2/themes/images/products/cloths/Accept-Yourself-T-shirt-design-22262.jpg" alt=""/></a>
+                   <a href="/MP2/themes/images/products/cloths/Ahoy-Sailor-Custom-t-shirts-11265.jpg" > <img style="width:29%" src="/MP2/themes/images/products/cloths/Ahoy-Sailor-Custom-t-shirts-11265.jpg" alt=""/></a>
                   </div>
                   <div class="item">
-                   <a href="themes/images/products/large/f3.jpg" > <img style="width:29%" src="themes/images/products/large/f3.jpg" alt=""/></a>
-                   <a href="themes/images/products/large/f1.jpg"> <img style="width:29%" src="themes/images/products/large/f1.jpg" alt=""/></a>
-                   <a href="themes/images/products/large/f2.jpg"> <img style="width:29%" src="themes/images/products/large/f2.jpg" alt=""/></a>
+                   <a href="/MP2/themes/images/products/large/f3.jpg" > <img style="width:29%" src="themes/images/products/large/f3.jpg" alt=""/></a>
+                   <a href="/MP2/themes/images/products/large/f1.jpg"> <img style="width:29%" src="themes/images/products/large/f1.jpg" alt=""/></a>
+                   <a href="/MP2/themes/images/products/large/f2.jpg"> <img style="width:29%" src="themes/images/products/large/f2.jpg" alt=""/></a>
                   </div>
                 </div>
-              <!--  
-			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a> 
-			  -->
+               
+				
+			  <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>  -->
+			 
               </div>
 			  
 			 <div class="btn-toolbar">
@@ -585,16 +563,16 @@
 				<a href="#">MANUFACTURERS</a> 
 				<a href="#">SUPPLIERS</a> 
 			 </div>
-	<div id="socialMedia" class="span3 pull-right">
+			 <div id="socialMedia" class="span3 pull-right">
 				<h5>SOCIAL MEDIA </h5>
-				<a href="#"><img width="60" height="60" src="themes/images/facebook.png" title="facebook" alt="facebook"/></a>
-				<a href="#"><img width="60" height="60" src="themes/images/twitter.png" title="twitter" alt="twitter"/></a>
-				<a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a>
-			 </div> 
-		 </div>
-		<p class="pull-right">&copy; Bernie&Bamby</p>
-	</div><!-- Container End -->
-	</div>
+				<a href="#"><img width="60" height="60" src="/MP2/themes/images/facebook.png" title="facebook" alt="facebook"/></a>
+				<a href="#"><img width="60" height="60" src="/MP2/themes/images/twitter.png" title="twitter" alt="twitter"/></a>
+				<a href="#"><img width="60" height="60" src="/MP2/themes/images/youtube.png" title="youtube" alt="youtube"/></a>
+			</div> 
+		</div>
+	   <p class="pull-right">&copy; Bernie&Bamby</p>
+   </div><!-- Container End -->
+   </div>
 <!-- Placed at the end of the document so the pages load faster ============================================= -->
 	<script src="/MP2/themes/js/jquery.js" type="text/javascript"></script>
 	<script src="/MP2/themes/js/bootstrap.min.js" type="text/javascript"></script>
